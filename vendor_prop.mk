@@ -425,3 +425,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.corvus.maintainer=Ashwatthama
+
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+   iorapd.perfetto.enable=true \
+   iorapd.readahead.enable=true
