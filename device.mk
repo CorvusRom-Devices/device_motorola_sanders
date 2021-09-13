@@ -388,7 +388,8 @@ PRODUCT_PACKAGES += \
     init.safailnet.rc \
     init.sanders.rc \
     init.spectrum.rc \
-    init.spectrum.sh
+    init.spectrum.sh \
+    init.performance_level.rc \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
